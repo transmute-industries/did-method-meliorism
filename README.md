@@ -1,6 +1,10 @@
 # did:meliorism
 
-An experimental DID Method.
+[![Spec](https://github.com/transmute-industries/did-method-meliorism/actions/workflows/cd.yml/badge.svg)](https://github.com/transmute-industries/did-method-meliorism/actions/workflows/cd.yml)
+
+An experimental Decentralized Identifier Method.
+
+[Read the method specification](https://transmute-industries.github.io/did-method-meliorism/).
 
 ## Use
 
