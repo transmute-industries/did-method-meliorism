@@ -8,6 +8,12 @@ An experimental Decentralized Identifier Method.
 
 ## Use
 
+You will need to setup a `.env` from the given `example.env`.
+
+Currently, only infura based configuration for IPFS is supported.
+
+- [infura.io](https://infura.io/).
+
 ```
 nvm use 18
 npm i
