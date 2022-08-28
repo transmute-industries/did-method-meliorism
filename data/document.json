@@ -1,0 +1,7 @@
+{
+  "patches": [
+    "https://a.example/patches/0",
+    "https://b.example/patches/1",
+    "https://c.example/patches/2"
+  ]
+}

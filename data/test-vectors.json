@@ -1,0 +1,216 @@
+{
+  "keys": [
+    {
+      "id": "#QJ0giZaQVv2A9I8RVJVLt3InJzVPHOsk1LgI-YClmHk",
+      "type": "JsonWebKey2020",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "alg": "EdDSA",
+        "x": "M8r81ssQjKNMnritByLiDv7Z2iM8i88yCSNBUrctWGM"
+      },
+      "privateKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "alg": "EdDSA",
+        "x": "M8r81ssQjKNMnritByLiDv7Z2iM8i88yCSNBUrctWGM",
+        "d": "bBRTSuPS7TuuU2CNf6rFy-s-Xu0vVdONUAx6l2m7opU"
+      }
+    }
+  ],
+  "documents": [
+    {
+      "patches": [
+        "https://a.example/patches/0",
+        "https://b.example/patches/1",
+        "https://c.example/patches/2"
+      ]
+    },
+    {
+      "patches": [
+        "https://a.example/patches/0",
+        "https://b.example/patches/1",
+        "https://c.example/patches/2"
+      ]
+    }
+  ],
+  "identifiers": [
+    "did:meliorism:QmPNzsLMBsz36Bhi13B2KaWNWexdoofaZKVrEbmvsLzmiA",
+    "did:meliorism:eyJwYXRjaGVzIjpbImh0dHBzOi8vYS5leGFtcGxlL3BhdGNoZXMvMCIsImh0dHBzOi8vYi5leGFtcGxlL3BhdGNoZXMvMSIsImh0dHBzOi8vYy5leGFtcGxlL3BhdGNoZXMvMiJdfQ"
+  ],
+  "patches": [
+    "eyJqd2siOnsia3R5IjoiT0tQIiwiY3J2IjoiRWQyNTUxOSIsImFsZyI6IkVkRFNBIiwieCI6IkZOT01QSkZjS1g0R2tkZWNjSWNGakhLTTVWMUpMWVBUeE1ic3AxblFzLU0ifSwiYWxnIjoiRWREU0EiLCJjdHkiOiJhcHBsaWNhdGlvbi9qc29uLXBhdGNoK2pzb24ifQ.W3sib3AiOiJhZGQiLCJwYXRoIjoiL2tleUFncmVlbWVudC8wIiwidmFsdWUiOiIja2V5LTAifSx7Im9wIjoiYWRkIiwicGF0aCI6Ii9jYXBhYmlsaXR5RGVsZWdhdGlvbi8wIiwidmFsdWUiOiIja2V5LTAifSx7Im9wIjoiYWRkIiwicGF0aCI6Ii9jYXBhYmlsaXR5SW52b2NhdGlvbi8wIiwidmFsdWUiOiIja2V5LTAifSx7Im9wIjoiYWRkIiwicGF0aCI6Ii9hc3NlcnRpb25NZXRob2QvMCIsInZhbHVlIjoiI2tleS0wIn0seyJvcCI6ImFkZCIsInBhdGgiOiIvYXV0aGVudGljYXRpb24vMCIsInZhbHVlIjoiI2tleS0wIn0seyJvcCI6ImFkZCIsInBhdGgiOiIvdmVyaWZpY2F0aW9uTWV0aG9kLzAiLCJ2YWx1ZSI6eyJpZCI6IiNrZXktMCIsInR5cGUiOiJKc29uV2ViS2V5MjAyMCIsImNvbnRyb2xsZXIiOiJkaWQ6bWVsaW9yaXNtOlFtUE56c0xNQnN6MzZCaGkxM0IyS2FXTldleGRvb2ZhWktWckVibXZzTHptaUEiLCJwdWJsaWNLZXlKd2siOnsia3R5IjoiT0tQIiwiY3J2IjoiRWQyNTUxOSIsImFsZyI6IkVkRFNBIiwieCI6IkZOT01QSkZjS1g0R2tkZWNjSWNGakhLTTVWMUpMWVBUeE1ic3AxblFzLU0ifX19XQ.EA6SkGTcryrFtC8dAFfSmSke3zttCmsYk0Ugc6P1JMyEqIhdnHmwZMJhzZ-ukr0HJkvRNvjfM0MbmlRVpHw6CA",
+    "eyJqd2siOnsia3R5IjoiT0tQIiwiY3J2IjoiRWQyNTUxOSIsImFsZyI6IkVkRFNBIiwieCI6IkZOT01QSkZjS1g0R2tkZWNjSWNGakhLTTVWMUpMWVBUeE1ic3AxblFzLU0ifSwiYWxnIjoiRWREU0EiLCJjdHkiOiJhcHBsaWNhdGlvbi9qc29uLXBhdGNoK2pzb24ifQ.W10.UYGfIAmlFKyfWpi1BD0vRmqPZ7Ol5QeZMxDJCPEh_eZj2-VWWHvPlRzKv45UZoTETHCqc7abS-KdEC--zva_Cg"
+  ],
+  "resolutions": [
+    {
+      "didDocument": {
+        "@context": [
+          "https://www.w3.org/ns/did/v1",
+          {
+            "@vocab": "https://vocab.example#"
+          }
+        ],
+        "id": "did:meliorism:QmPNzsLMBsz36Bhi13B2KaWNWexdoofaZKVrEbmvsLzmiA",
+        "verificationMethod": [],
+        "authentication": [],
+        "assertionMethod": [],
+        "capabilityDelegation": [],
+        "capabilityInvocation": [],
+        "keyAgreement": [],
+        "service": [
+          {
+            "id": "#0",
+            "type": "SignedIetfJsonPatch",
+            "revoked": true,
+            "serviceEndpoint": "https://a.example/patches/0"
+          },
+          {
+            "id": "#1",
+            "type": "SignedIetfJsonPatch",
+            "revoked": true,
+            "serviceEndpoint": "https://b.example/patches/1"
+          },
+          {
+            "id": "#2",
+            "type": "SignedIetfJsonPatch",
+            "revoked": true,
+            "serviceEndpoint": "https://c.example/patches/2"
+          }
+        ]
+      },
+      "didDocumentMetadata": {
+        "valid": true,
+        "disputed": true,
+        "immutable": false,
+        "deactivated": true
+      }
+    },
+    {
+      "didDocument": {
+        "@context": [
+          "https://www.w3.org/ns/did/v1",
+          {
+            "@vocab": "https://vocab.example#"
+          }
+        ],
+        "id": "did:meliorism:QmPNzsLMBsz36Bhi13B2KaWNWexdoofaZKVrEbmvsLzmiA",
+        "verificationMethod": [
+          {
+            "id": "#key-0",
+            "type": "JsonWebKey2020",
+            "controller": "did:meliorism:QmPNzsLMBsz36Bhi13B2KaWNWexdoofaZKVrEbmvsLzmiA",
+            "publicKeyJwk": {
+              "kty": "OKP",
+              "crv": "Ed25519",
+              "alg": "EdDSA",
+              "x": "FNOMPJFcKX4GkdeccIcFjHKM5V1JLYPTxMbsp1nQs-M"
+            }
+          }
+        ],
+        "authentication": [
+          "#key-0"
+        ],
+        "assertionMethod": [
+          "#key-0"
+        ],
+        "capabilityDelegation": [
+          "#key-0"
+        ],
+        "capabilityInvocation": [
+          "#key-0"
+        ],
+        "keyAgreement": [
+          "#key-0"
+        ],
+        "service": [
+          {
+            "id": "#0",
+            "type": "SignedIetfJsonPatch",
+            "serviceEndpoint": "https://a.example/patches/0"
+          },
+          {
+            "id": "#1",
+            "type": "SignedIetfJsonPatch",
+            "revoked": true,
+            "serviceEndpoint": "https://b.example/patches/1"
+          },
+          {
+            "id": "#2",
+            "type": "SignedIetfJsonPatch",
+            "revoked": true,
+            "serviceEndpoint": "https://c.example/patches/2"
+          }
+        ]
+      },
+      "didDocumentMetadata": {
+        "valid": true,
+        "disputed": true,
+        "immutable": false,
+        "deactivated": false
+      }
+    },
+    {
+      "didDocument": {
+        "@context": [
+          "https://www.w3.org/ns/did/v1",
+          {
+            "@vocab": "https://vocab.example#"
+          }
+        ],
+        "id": "did:meliorism:QmPNzsLMBsz36Bhi13B2KaWNWexdoofaZKVrEbmvsLzmiA",
+        "verificationMethod": [
+          {
+            "id": "#key-0",
+            "type": "JsonWebKey2020",
+            "controller": "did:meliorism:QmPNzsLMBsz36Bhi13B2KaWNWexdoofaZKVrEbmvsLzmiA",
+            "publicKeyJwk": {
+              "kty": "OKP",
+              "crv": "Ed25519",
+              "alg": "EdDSA",
+              "x": "FNOMPJFcKX4GkdeccIcFjHKM5V1JLYPTxMbsp1nQs-M"
+            }
+          }
+        ],
+        "authentication": [
+          "#key-0"
+        ],
+        "assertionMethod": [
+          "#key-0"
+        ],
+        "capabilityDelegation": [
+          "#key-0"
+        ],
+        "capabilityInvocation": [
+          "#key-0"
+        ],
+        "keyAgreement": [
+          "#key-0"
+        ],
+        "service": [
+          {
+            "id": "#0",
+            "type": "SignedIetfJsonPatch",
+            "serviceEndpoint": "https://a.example/patches/0"
+          },
+          {
+            "id": "#1",
+            "type": "SignedIetfJsonPatch",
+            "serviceEndpoint": "https://b.example/patches/1"
+          },
+          {
+            "id": "#2",
+            "type": "SignedIetfJsonPatch",
+            "serviceEndpoint": "https://c.example/patches/2"
+          }
+        ]
+      },
+      "didDocumentMetadata": {
+        "valid": true,
+        "disputed": false,
+        "immutable": false,
+        "deactivated": false
+      }
+    }
+  ]
+}
