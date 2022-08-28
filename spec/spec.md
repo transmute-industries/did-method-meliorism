@@ -30,6 +30,9 @@ a Decentralized Identifier Method (DIM), conforming to [@!DID-CORE].
 Decentralized Identifiers are useful building blocks for privacy, reputation,
 permission and knowledge management systems.
 
+This document is under development, if you would like to contribute,
+please visit: [github.com/transmute-industries/did-method-meliorism](https://github.com/transmute-industries/did-method-meliorism).
+
 {mainmatter}
 
 # Introduction
